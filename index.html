@@ -38,6 +38,9 @@
         <div class="card-content">
           <span class="card-title">phone call in progress...</span>
           <p>Please make sure you open this page on a mobile device.</p>
+          <div style="width: 100%; text-align: center">
+            <button onclick="makeCall()" class="waves-effect waves-light btn">병원 전화하기</button>
+          </div>
         </div>
       </div>
     </div>
@@ -45,6 +48,10 @@
 
   <script>
     window.location.href='tel:15997397';
+
+    function makeCall() {
+      window.location.href='tel:15997397';
+    }
   </script>
 
 </body>
